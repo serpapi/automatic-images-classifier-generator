@@ -4,7 +4,7 @@
 
 Disclaimer: This open-source machine learning software is not one of [the product offerings provided by SerpApi](https://serpapi.com/libraries). The software is using one of the product offerings, [SerpApi’s Google Images Scraper API](https://https://serpapi.com/images-results) to automatically create datasets. You may [register to SerpApi to claim free credits](https://serpapi.com/users/sign_up). You may also see the pricing page of SerpApi to get detailed information.
 
-- [Machine Learning Tools and Features provided by `automatic-images-classifier-generator`](#machine-learning-tools-and-features-provided-by--automatic-images-classifier-generator-)
+- [Machine Learning Tools and Features provided by `automatic-images-classifier-generator`](#machine-learning-tools-and-features-provided-by-automatic-images-classifier-generator)
 - [Installation](#installation)
 - [Basic Usage of Machine Learning Tools](#basic-usage-of-machine-learning-tools)
 - [Adding SERP Images to Storage Server](#adding-serp-images-to-storage-server)
@@ -135,7 +135,7 @@ curl -X 'POST' \
 ```
 </details>
 
-###Example Dictionary
+### Example Dictionary
 
 ```py
 {
