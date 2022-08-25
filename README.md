@@ -4,6 +4,30 @@
 
 Disclaimer: This open-source machine learning software is not one of [the product offerings provided by SerpApi](https://serpapi.com/libraries). The software is using one of the product offerings, [SerpApi’s Google Images Scraper API](https://https://serpapi.com/images-results) to automatically create datasets. You may [register to SerpApi to claim free credits](https://serpapi.com/users/sign_up). You may also see the pricing page of SerpApi to get detailed information.
 
+- [Machine Learning Tools and Features provided by `automatic-images-classifier-generator`](#machine-learning-tools-and-features-provided-by--automatic-images-classifier-generator-)
+- [Installation](#installation)
+- [Basic Usage of Machine Learning Tools](#basic-usage-of-machine-learning-tools)
+- [Adding SERP Images to Storage Server](#adding-serp-images-to-storage-server)
+  * [add_to_db](#add_to_db)
+  * [multiple_query](#multiple_query)
+    + [Example Dictionary](#example-dictionary)
+- [Training a Model](#training-a-model)
+  * [train](#train)
+    + [Example Dictionary](#example-dictionary-1)
+- [Testing a Model](#testing-a-model)
+  * [test](#test)
+    + [Example Dictionary](#example-dictionary-2)
+- [Getting Information on the Training and Testing of the Model](#getting-information-on-the-training-and-testing-of-the-model)
+  * [find_attempt](#find_attempt)
+    + [Example Output Dictionary](#example-output-dictionary)
+- [Support for Various Elements](#support-for-various-elements)
+  * [Layers](#layers)
+  * [Optimizers](#optimizers)
+  * [Loss Functions](#loss-functions)
+  * [Transforms](#transforms)
+  * [Image Operations](#image-operations)
+- [Keypoints for the State of the Machine Learning Tool and Its Future Roadmap](#keypoints-for-the-state-of-the-machine-learning-tool-and-its-future-roadmap)
+
 ---
 
 # Machine Learning Tools and Features provided by `automatic-images-classifier-generator`
@@ -111,7 +135,7 @@ curl -X 'POST' \
 ```
 </details>
 
-*Example Dictionary*
+###Example Dictionary
 
 ```py
 {
@@ -164,7 +188,7 @@ curl -X 'POST' \
 
 </details>
 
-### Example Dictionary:
+### Example Dictionary
 ```py
 {
   "queries": [
@@ -262,7 +286,7 @@ curl -X 'POST' \
 
 </details>
 
-### Example Dictionary:
+### Example Dictionary
 ```py
 {
   "model_name": "american_dog_species",
@@ -497,7 +521,7 @@ curl -X 'POST' \
 ```
 </details>
 
-## Example Dictionary
+### Example Dictionary
 ```py
 {
   "ids": [
