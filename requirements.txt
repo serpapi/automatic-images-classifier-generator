@@ -1,0 +1,9 @@
+fastapi
+google-search-results
+mimetypes
+pandas
+torch
+asyncio
+couchbase
+couchbase_core
+httpx
