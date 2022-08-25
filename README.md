@@ -1,4 +1,4 @@
-# Generate machine learning models fully automatically to clasiffiy any images using SERP data
+# Generate machine learning models fully automatically to classify any images using SERP data
 
 `automatic-images-classifier-generator` is a machine learning tool written in Python using [SerpApi](https://serpapi.com), Pytorch, FastAPI, and Couchbase to provide automated large dataset creation, automated training and testing of deep learning models with the ability to tweak algorithms, storing the structure and results of neural networks all in one place.
 
