@@ -232,7 +232,7 @@ class QueryCreator:
 			if "height" in self.mq.dict() and "width" in self.mq.dict() and self.mq.height != None and self.mq.width != None:
 				query_string = "{} imagesize:{}x{}".format(query_string, self.mq.height, self.mq.width)
 
-			query = Query(google_domain = self.mq.google_domain, num = self.mq.num, ijn=0, q=query_string, desired_chips_name = self.mq.desired_chips_name, api_key = self.mq.api_key, limit=self.mq.limit, no_cache=self.mq.no_cache)
+			query = Query(google_domain = self.mq.google_domain, ijn=0, q=query_string, desired_chips_name = self.mq.desired_chips_name, api_key = self.mq.api_key, limit=self.mq.limit, no_cache=self.mq.no_cache)
 			db = ImagesDataBase()
 			serpapi = Download(query, db)
 			chips = serpapi.chips_serpapi_search()
